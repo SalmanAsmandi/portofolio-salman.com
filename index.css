@@ -105,3 +105,20 @@ footer {
 .mail {
   color: #f0be41;
 }
+
+/* responsive */
+
+@media screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .popup img {
+    width: 100%;
+    height: auto;
+  }
+  .url {
+    margin-top: 20px;
+  }
+}
